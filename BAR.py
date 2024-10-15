@@ -3,8 +3,8 @@ import streamlit as st
 import plotly.express as px
 
 # Set up file paths for historical and today's data
-history_file = 'Historical_Stock_Prize_Comparison/History.xlsx'
-today_file = 'Historical_Stock_Prize_Comparison/Today.xlsx'
+history_file = 'History.xlsx'
+today_file = 'Today.xlsx'
 
 # Streamlit UI title
 st.title('Data Comparison: History vs Today')
